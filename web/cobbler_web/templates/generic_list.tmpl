@@ -68,7 +68,8 @@ function action_multi(otype) {
     param  = sel_batchaction.split("|")[1]
 
     if (action == "profile") {
-       $('#batchprofiledlg').dialog({ title: "New installation profile name for checked systems?",
+       $('#batchprofiledlg').dialog({
+          title: "New installation profile name for checked systems?",
           width: 450,
           height: 150,
           buttons: {
